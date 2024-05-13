@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(184, 184, 184);
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 0px 10px 0px 5px;
+    border: solid 2px black;
+}
+.header img{
+    width: 100px;
+    border-radius: 50%;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header a :hover{
+    color: blue;
+}
+.header a :active{
+    color: red;
+}
+.principal{
+    padding: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px 50px 10px 150px;
+    justify-content: space-between;
+    width: 75%;
+    border: solid 2px black;
+}
+
+
+.fourtext{
+    text-align: center;
+    width: 250px;
+}
+.acordeon{
+    width: 75%;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+summary{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.acordeontext{
+    padding:10px;
+    text-align: justify;
+    background-color: white;
+}
